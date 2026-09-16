@@ -86,7 +86,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-[flowchart.fprg] (flowchrat.fprg)
+[flowchart.fprg](flowchrat.fprg)
 
 ---
 
@@ -94,7 +94,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-`program.js`
+[`program.js](program.js)
 
 ---
 
