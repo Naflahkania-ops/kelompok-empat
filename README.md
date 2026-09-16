@@ -86,8 +86,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-[flowchart.fprg] (A_Kelompok 4_Personal Budget Calc.fprg)
-
+[flowchart.fprg] (flowchrat.fprg)
 
 ---
 
