@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="A_Kelompok 4_Personal Budget Calc"/>
+        <attribute name="authors" value="k"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-10 04:12:15 PM"/>
+        <attribute name="created" value="aztSQUowODsyMDI2LTA5LTEwOzAyOjM2OjQ2IFBNOzE3MTc="/>
+        <attribute name="edited" value="aztSQUowODsyMDI2LTA5LTEwOzA0OjEyOjE1IFBNOzE7MTgxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Pendapatan, Pengeluaran, Sisa, Total, Listrik, MakanMinum, Pajak, Cicilan" type="Real" array="False" size=""/>
+            <declare name="Ulang" type="String" array="False" size=""/>
+            <do expression="Ulang == &quot;y&quot;">
+                <output expression="&quot;Berupa nominal tanpa titik ataupun koma, jika tidak ada maka input 0 saja&quot;" newline="True"/>
+                <output expression="&quot;Masukkan Pendapatan anda&quot;" newline="True"/>
+                <input variable="Pendapatan"/>
+                <output expression="&quot;Berapa biaya Listrik anda?&quot;" newline="True"/>
+                <input variable="Listrik"/>
+                <output expression="&quot;Berapa biaya anda untuk makan dan Minum?&quot;" newline="True"/>
+                <input variable="MakanMinum"/>
+                <output expression="&quot;Berapa biaya pajak anda?&quot;" newline="True"/>
+                <input variable="Pajak"/>
+                <output expression="&quot;Berapa biaya cicilan anda?&quot;" newline="True"/>
+                <input variable="Cicilan"/>
+                <assign variable="Pengeluaran" expression="Listrik + MakanMinum + Pajak + Cicilan"/>
+                <assign variable="Sisa" expression="Pendapatan - Pengeluaran"/>
+                <assign variable="Total" expression="Sisa/Pendapatan"/>
+                <output expression="&quot;Total Pendapatan: Rp.&quot; &amp; Pendapatan" newline="True"/>
+                <output expression="&quot;Total Pengeluaran: Rp.&quot; &amp; Pengeluaran" newline="True"/>
+                <output expression="&quot;Sisa Saldo: Rp.&quot; &amp; Sisa" newline="True"/>
+                <if expression="Total &gt;= 0.3">
+                    <then>
+                        <output expression="&quot;Keuangan anda bagus!&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="Total &gt;= 0.1 and Total &lt;= 0.29">
+                            <then>
+                                <output expression="&quot;Nabung aja dulu&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Kacau men&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <output expression="&quot;Ingin menghitung ulang? (ketik y jika iya)&quot;" newline="True"/>
+                <input variable="Ulang"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
