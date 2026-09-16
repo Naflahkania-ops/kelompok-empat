@@ -54,13 +54,17 @@ The program receives:
 
 ## 6. Process
 
-The program compares the player's guess with the target number.
+The program calculates the user's financial condition based on their income and expenses.
 
-If the guess is:
+The program calculates the total budget:
 
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
+Total = Remaining Money / Income
+
+If the total is:
+
+≥ 0.30 → the program displays "Keuangan anda bagus!"
+≥ 0.10 and < 0.30 → the program displays "Nabung aja dulu"
+< 0.10 → the program displays "Kacau men"
 
 ---
 
