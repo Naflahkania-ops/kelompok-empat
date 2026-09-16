@@ -63,7 +63,9 @@ Total = Remaining Money / Income
 If the total is:
 
 ≥ 0.30 → the program displays "Keuangan anda bagus!"
+
 ≥ 0.10 and < 0.30 → the program displays "Nabung aja dulu"
+
 < 0.10 → the program displays "Kacau men"
 
 ---
