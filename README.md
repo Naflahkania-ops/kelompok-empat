@@ -1,4 +1,4 @@
-# kelompok-empat
+# Kelompok-Empat
 # Mini Programming Project
 
 ## 1. Group Information
