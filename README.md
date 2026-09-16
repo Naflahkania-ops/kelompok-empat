@@ -104,5 +104,5 @@ The program is tested using several test scenarios.
 
 Testing documentation:
 
-[`test-cases.md`](`test-cases.md`)
+[`Testing and Documentation.md`](`Testing and Documentation.md`)
 
