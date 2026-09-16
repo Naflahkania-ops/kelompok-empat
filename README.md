@@ -75,7 +75,7 @@ The program displays:
 
 The algorithm used in the program is described in:
 
-[`pseudocode1.txt`](`pseudocode1.txt`)
+[pseudocode1.txt](pseudocode1.txt)
 
 
 ---
