@@ -1,0 +1,35 @@
+START
+
+    ulang ← "y"
+
+    WHILE ulang = "y" atau "Y" DO
+
+        Tampilkan "Input nominal tanpa titik atau koma. Jika tidak ada, input 0"
+
+        pendapatan ← Input "Masukkan Pendapatan anda"
+        listrik ← Input "Berapa biaya Listrik anda?"
+        makanminum ← Input "Berapa biaya untuk makan dan minum?"
+        pajak ← Input "Berapa biaya pajak anda?"
+        cicilan ← Input "Berapa biaya cicilan anda?"
+
+        pengeluaran ← listrik + makanMinum + pajak + cicilan
+        sisa ← pendapatan - pengeluaran
+        total ← sisa / pendapatan
+
+        Tampilkan pendapatan
+        Tampilkan pengeluaran
+        Tampilkan sisa
+
+        IF total >= 0.3 THEN
+            Tampilkan "Keuangan anda bagus!"
+        ELSE IF total >= 0.1 AND total <= 0.29 THEN
+            Tampilkan "Nabung aja dulu"
+        ELSE
+            Tampilkan "Kacau men"
+        END IF
+
+        ulang ← Input "Ingin menghitung ulang? (ketik y jika iya)"
+
+    END WHILE
+
+END
