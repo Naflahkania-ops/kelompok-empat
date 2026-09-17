@@ -92,7 +92,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-[Flowchart.fprg](Flowchrat.fprg)
+[flowchart.fprg](Flowchrat.fprg)
 
 ---
 
