@@ -12,9 +12,9 @@
 |---|---|---|---|
 | 1 | Zalfaa Rihhadatul Aisyah | 2610312011 | Testing & Documentation |
 | 2 | Mohammad Ibrahim Maulana | 2610312019 | Project Coordinator |
-| 3 | Maura Nurul Safira | 2610312025 | JavaScript |
+| 3 | Maura Nurul Safira | 2610312025 | Flowchart |
 | 4 | Naflah Kania Chandra | 2610312028 | Algorithm |
-| 5 | Siraj Zahri Ayyubi | 2610312034 | Flowchart |
+| 5 | Siraj Zahri Ayyubi | 2610312034 | Java Script |
 
 ---
 
